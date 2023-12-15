@@ -1,0 +1,22 @@
+html {
+    width: auto;
+    height: auto;
+}
+
+h1 {
+    font-family: sans-serif;
+    color: #fff;
+}
+
+.cabecalho {
+    width: auto;
+    height: auto;
+    background-color: firebrick;
+    
+    
+}
+
+.listas {
+    border: 1px #000 solid;
+    border-right: -100px;
+}
