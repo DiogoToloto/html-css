@@ -7,34 +7,45 @@
     <style>
         body {
             font-family: Arial, Helvetica, sans-serif;
+            background-color: #bbb;
+        }
+
+        #container {
+            max-width: 600px;
+            margin: auto;
+            background-color: #fff;
+            padding: 15px;
+        }
+
+        h1 {
+            text-align: center;
         }
 
         iframe {
-            width: 98vh;
+            width: 95%;
             height: 400px;
+            display: block;
+            margin: auto;
             border: 2px solid black;
         }
     </style>
 </head>
 <body>
-    <h1>Faça uma escolha</h1>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto ab veritatis recusandae quibusdam nam corrupti voluptatibus inventore, odio reprehenderit fugiat, repellat voluptatem harum dolores facilis mollitia, pariatur aliquam itaque quos.
-    </p>
-
-    <ul>
-        <li><a href="pagina01.html" target="frame">primeira pagina</a></li>
-        <li><a href="pagina02.html" target="frame">segunda pagina</a></li>
-        <li><a href="pagina03.html" target="frame">terceira pagina</a></li>
-    </ul>
-
-    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Similique cumque fuga eius debitis dignissimos corrupti consequuntur, expedita quidem vero illo, iusto veritatis labore est veniam ipsam reprehenderit iste repellat. Ut.
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore aperiam nulla non laudantium debitis ad similique impedit eligendi, eum saepe. Dolor, labore? Ducimus accusamus ut veniam itaque laudantium corporis debitis!
-    </p>
-
-        <iframe src="" name="frame">
-
-        </iframe>
-
-        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dicta culpa eligendi velit tempore doloribus libero nulla praesentium ex a expedita deserunt ipsum asperiores voluptatibus, eveniet ab fuga neque ut vitae.</p>
+    <div id="container">
+        <h1>Faça uma escolha</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto ab veritatis recusandae quibusdam nam corrupti voluptatibus inventore, odio reprehenderit fugiat, repellat voluptatem harum dolores facilis mollitia, pariatur aliquam itaque quos.
+        </p>
+        <ul>
+            <li><a href="pagina01.html" target="frame">primeira pagina</a></li>
+            <li><a href="pagina02.html" target="frame">segunda pagina</a></li>
+            <li><a href="pagina03.html" target="frame">terceira pagina</a></li>
+        </ul>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Similique cumque fuga eius debitis dignissimos corrupti consequuntur, expedita quidem vero illo, iusto veritatis labore est veniam ipsam reprehenderit iste repellat. Ut.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore aperiam nulla non laudantium debitis ad similique impedit eligendi, eum saepe. Dolor, labore? Ducimus accusamus ut veniam itaque laudantium corporis debitis!
+        </p>
+            <iframe src="" name="frame" srcdoc="">
+            </iframe>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dicta culpa eligendi velit tempore doloribus libero nulla praesentium ex a expedita deserunt ipsum asperiores voluptatibus, eveniet ab fuga neque ut vitae.</p>
+    </div>
 </body>
 </html>
