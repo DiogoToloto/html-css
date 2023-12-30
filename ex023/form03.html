@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+        }
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: rgb(186, 186, 186);
+        }
+
+        #formulario {
+            position: relative;
+            text-align: center;
+            background-color: #fff;
+            max-width: 70%;
+            height: 400px;
+            margin: auto;
+            padding: 10px;
+            top: 15px;
+            border-radius: 15px;
+            box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.645);
+        }
+
+        input {
+            display: block;
+            text-align: center;
+            margin: auto;
+           margin-top: 5px;
+           margin-bottom: 10px;
+        }
+
+        #btn {
+            display: inline-block;
+            margin-left: 15px;
+            margin-right: 15px;
+            padding: 10px;
+            text-transform: uppercase;
+            background-color: rgb(99, 198, 0);
+            color: white;
+            border: none;
+        }
+    </style>
+</head>
+<body>
+    <div id="formulario">
+    <h1>Teste de formulario</h1>
+        <form action="cadastro.php" method="get">
+            <p>
+                <label for="inome">Nome</label>
+                <input type="text" name="nome" id="inome" required maxlength="30" placeholder="Nome completo" autocomplete="name">
+            </p>
+            <p>
+                <label for="imedia">Média</label>
+                <input type="number" name="media" id="imedia" minlength="0" maxlength="10" step="0.5" required>
+            </p>
+            <p>
+                <label for="imes">Periodo letivo</label>
+                <input type="month" name="mes" id="imes">
+            </p>
+            <p>
+                <label for="idata">Dia da prova</label>
+                <input type="date" name="data" id="idata">
+            </p>
+            <p>
+                <label for="ihora">Horario da prova</label>
+                <input type="time" name="hora" id="ihora">
+            </p>
+            <p>
+                <input type="submit" value="Enviar" id="btn">
+                <input type="reset" value="Limpar" id="btn">
+            </p>
+        </form>
+    </div>
+</body>
+</html>
