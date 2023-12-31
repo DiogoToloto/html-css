@@ -52,7 +52,9 @@ a {
     display: block;
     position: relative;
     background-color: rgb(255, 255, 255);
-    width: 1000px;
+    width: 100px;
+    top: 5px;
+    right: 0px;
     
 }
 
